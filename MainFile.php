@@ -59,41 +59,33 @@ if(($playerPoints > $computerPoints) && $playerPoints <= 21) {
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body class="body">
+    <body; class = "body">
 
-        <div class="winLose">
+        <div>
+        <button class="button button2" onclick="window.location.href='index.html';" value="BJ">Play BlackJack!</button>
+        </div>
+
+        <div>
             <h2><?php echo($winner) ?></h2>
         </div>
-        <div class="player">
+        <div>
             <h2>Player</h2>
+            <h3>Points: <?php echo($playerPoints) ?></h3>
             <img src="<?php echo($playerCards["cards"][0]["image"]) ?>" alt="Card" width="" height="">
             <img src="<?php echo($playerCards["cards"][1]["image"]) ?>" alt="Card" width="" height="">  
-            <h3>Points: <?php echo($playerPoints) ?></h3>
-            
+
         </div>
 
 
-        <div class="cashier">
+        <div class = "cashier">
 
             <h2>Cashier</h2>
+            <h3>Points: <?php echo($computerPoints) ?></h3>
             <img src="<?php echo($computerCards["cards"][0]["image"]) ?>" alt="Card" width="" height="">
-            <img src="<?php echo($computerCards["cards"][1]["image"]) ?>" alt="Card" width="" height="">
-            <h3>Points: <?php echo($computerPoints) ?></h3>  
+            <img src="<?php echo($computerCards["cards"][1]["image"]) ?>" alt="Card" width="" height="">  
 
-        </div>
-
-        <div class="grid-container">
-            <div class="grid-item">1</div> 
         </div>
 
     </body>
 
-    <footer>
-
-        <div class="hello">
-            <button class="button button2 font" onclick="window.location.href='startpage.html';" value="BJ">Back to menu</button>
-            <button class="button button4 font"location.reload();>Reshuffle</button>
-        </div>
-
-    </footer>
 </html>
