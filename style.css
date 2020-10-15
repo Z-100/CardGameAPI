@@ -1,20 +1,63 @@
+  
 .button {
-border: none;
-color: orange;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-}
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.420s;
+    }
+    .button2 {
+        background-color: #259FFF;
+        position: absolute; 
+        top: 475px;
+        left: 750px;   
+    }
+    .button2:hover {
+        background-color: #0079D9;
+        font-size: 20px;
+    }
+    
 
-.button1 {background-color: #4CAF50;}
-
-.becground {
+.body {
     background:#3A3A3A;
 }
-.headerer {
-    background: #259FFF;
+
+.cashier {
+    position: absolute;
+    top: 42px;
+    right: 100px;
+    font: Agency Fb;
+}
+.player {
+    position: absolute;
+    top: 42px;
+    left: 100px;
+    font: Agency Fb;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 10%;
+    background: #6D6D6D;   
+    padding: 10px;
+    height: 350px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: auto;
+    font-size: 0;
+}
+.font {
+    font-family: Agency Fb;
+    font-size: 15px;
+}
+.winLose {
+    bottom: 100px;
+    font: Agency Fb;
 }
