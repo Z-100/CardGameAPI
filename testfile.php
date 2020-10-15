@@ -35,7 +35,7 @@ $card = json_decode($card,true);
     
         </div>
 
-        <img src="Ressources\images\logo.jpg" alt="logo" class="logo">
+        <img src="images\logo.jpg" alt="logo" class="logo">
         <img src="<?php echo($card["cards"][0]["image"]) ?>" alt="Card" width="" height="">
         <img src="<?php echo($card["cards"][1]["image"]) ?>" alt="Card" width="" height="">
         <button class="button button1">Shuffle Cards</button>
