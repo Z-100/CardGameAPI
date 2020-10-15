@@ -1,4 +1,4 @@
-# BlackJack
+# Black Jack
 
 [![](logo.jpg)](https://github.com/Z-100/CardGameAPI/blob/main/logo.jpg)
 
