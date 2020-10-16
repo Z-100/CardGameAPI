@@ -6,7 +6,7 @@
 Deck of Cards API: _http://deckofcardsapi.com/_
 
 ## The developers
-_Z-100, N4choWasTaken, Jerome-Luethi, Stricker97_
+_Z-100, N4choWasTaken, Jerome-Luethi, Stricker97, MagischerWolf_
 
 ## How to use it
 PrEsS tHe BuTtOnS
